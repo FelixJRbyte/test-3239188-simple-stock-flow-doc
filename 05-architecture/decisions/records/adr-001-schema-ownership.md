@@ -32,3 +32,16 @@ migración que lo necesita, en la misma migración (§6.2).
 ## Estado
 
 Vigente. Sin excepciones declaradas.
+
+---
+
+## Actualización de la revisión posterior a la auditoría
+
+> Se **añade** esta sección; el texto original no se modifica.
+
+- Las **cuatro migraciones** listadas arriba corresponden a la instantánea de §3.2 del
+  2026-09-19. Los cambios que §13 atribuye a T-09 y T-20 (y, posiblemente, T-11)
+  implican migraciones posteriores **que el modelo no lista** (DISC-07). Este
+  repositorio no puede confirmar el número vigente.
+- Se mantiene la decisión: nadie define DDL fuera de las migraciones.
+- Esta página sigue siendo **[reconstruido]**: no hay aprobación ni fecha originales.

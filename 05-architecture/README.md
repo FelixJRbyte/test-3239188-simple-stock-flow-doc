@@ -2,15 +2,20 @@
 
 > **Qué es esto:** el estilo y las piezas del sistema que el
 > modelo implica: agregados, puertos, adaptadores y **dónde
-> vive cada regla**.
+> vive cada regla**. Revisado tras la auditoría técnica.
 
 | Archivo | Contenido | Estado |
 |---|---|---|
-| `overview.md` ⭐ | Estilo (hexagonal), capas, componentes, agregados | ✅ |
-| `ports-and-adapters.md` ⭐ | Puertos del dominio y sus adaptadores | ✅ |
-| `where-rules-live.md` ⭐ | Motor vs. dominio vs. pendiente: cada regla con su dueño | ✅ |
-| `decisions/records/` | ADR-001…ADR-004 reconstruidos de las citas del modelo | ✅ [derivado] |
-| `closure.md` ⭐ | **Cierre del reto:** comprobar que la arquitectura cuadra con el modelo y con 01–04 | ✅ |
+| `overview.md` ⭐ | Estilo (hexagonal), capas, componentes, agregados | ✅ [derivado] |
+| `ports-and-adapters.md` ⭐ | Puertos del dominio y sus adaptadores | ✅ [derivado] |
+| `where-rules-live.md` ⭐ | Motor vs. dominio vs. pendiente vs. en conflicto: cada regla con un estado único | ✅ |
+| `security-and-authorization.md` | Autenticación y autorización: confirmado frente a propuesto | ✅ [derivado]; propuestas sin aprobar |
+| `errors-and-concurrency.md` | Clasificación de errores, transacción multi-agregado, `xmin`, reintentos | ✅ [derivado]; propuestas sin aprobar |
+| `deployment-and-configuration.md` | Despliegue y configuración respaldados por el modelo | ✅ [derivado]; límites explícitos |
+| `id-index.md` | Significado reconstruido de D, DP, T, A, H, FK, Q | ✅ [reconstruido] |
+| `model-discrepancies.md` | Contradicciones del modelo (DISC-01 a DISC-10) y su estado | ✅ |
+| `decisions/records/` | ADR-001…ADR-004 reconstruidos de las citas del modelo | ✅ [reconstruido] |
+| `closure.md` ⭐ | **Cierre del reto**, revisado: distingue declarada, implementada y verificada | ✅ con pendientes explícitos |
 
 ## Evidencia del estilo en el modelo
 
